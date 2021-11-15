@@ -30,5 +30,5 @@
 <p align="left"> 
 <a href="https://aws.amazon.com/" target="_blank"> <img src="icons/aws.svg" alt="aws"  height="32"/> </a>
 <a href="https://azure.com/" target="_blank"> <img src="icons/azure.svg" alt="aws"  height="32"/> </a> 
-<a href="https://console.google.com/" target="_blank"> <img src="icons/gcp.svg" alt="gcp"  height="32"/> </a>
+<a href="https://cloud.google.com/" target="_blank"> <img src="icons/gcp.svg" alt="gcp"  height="32"/> </a>
 </p>

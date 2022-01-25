@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Ramazan AYYILDIZ
 
-- 📝 I regulary write articles on [https://rayyildiz.com](https://rayyildiz.com)
+- 📝 I rarely write articles on [https://rayyildiz.com](https://rayyildiz.com)
 
 ### Connect with me:
 
@@ -30,5 +30,4 @@
 <p align="left"> 
 <a href="https://aws.amazon.com/" target="_blank"> <img src="icons/aws.svg" alt="aws"  height="32"/> </a>
 <a href="https://azure.com/" target="_blank"> <img src="icons/azure.svg" alt="aws"  height="32"/> </a> 
-<a href="https://cloud.google.com/" target="_blank"> <img src="icons/gcp.svg" alt="gcp"  height="32"/> </a>
 </p>

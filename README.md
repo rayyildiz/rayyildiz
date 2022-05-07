@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Ramazan AYYILDIZ
 
-- 📝 I rarely write articles on [https://rayyildiz.com](https://rayyildiz.com) 😔
+- 📝 I write articles on [https://rayyildiz.com](https://rayyildiz.com) 😔
 
 ### Connect with me:
 

@@ -1,6 +1,7 @@
 ### Hi there 👋, I'm Ramazan AYYILDIZ
 
 - 📝 I write articles on [https://rayyildiz.com](https://rayyildiz.com) 😔
+- My stack [rayyildiz/stack](https://stackshare.io/rayyildiz/stack)
 
 ### Connect with me:
 
@@ -29,6 +30,7 @@
 <a href="https://kafka.apache.org/" target="_blank"> <img src="icons/apachekafka.svg" alt="kafka" height="32"/> </a>
 <a href="https://spring.io/" target="_blank"> <img src="icons/spring.svg" alt="spring"  height="32"/> </a>
 <a href="https://graphql.org" target="_blank"> <img src="icons/graphql.svg" alt="GraphQL"  height="32"/> </a>
+<a href="https://redis.io" target="_blank"> <img src="icons/redis.svg" alt="Redis"  height="32"/> </a>
 </p>
 
 

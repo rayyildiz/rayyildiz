@@ -40,6 +40,5 @@
 </p>
 
 <p align="left"> 
-<img align="left" alt="rayyildiz's Most Used Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&layout=compact&cache_seconds=180&hide=typescript,shell,vim script,javascript,makefile" />
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&langs_count=6&layout=compact&cache_seconds=180&hide=shell,javascript,makefile)](https://github.com/rayyildiz)
 </p>

@@ -37,5 +37,9 @@
 <p align="left"> 
 <a href="https://aws.amazon.com/" target="_blank"> <img src="icons/aws.svg" alt="aws"  height="32"/> </a>
 <a href="https://azure.com/" target="_blank"> <img src="icons/azure.svg" alt="aws"  height="32"/> </a> 
+</p>
+
+<p align="left"> 
+<img align="left" alt="rayyildiz's Most Used Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&layout=compact&cache_seconds=180&hide=typescript,shell,vim script,javascript,makefile" />
 
 </p>

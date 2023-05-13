@@ -39,6 +39,5 @@
 <a href="https://azure.com/" target="_blank"> <img src="icons/azure.svg" alt="aws"  height="32"/> </a> 
 </p>
 
-<p align="left"> 
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&langs_count=6&layout=compact&cache_seconds=180&hide=shell,javascript,makefile)](https://github.com/rayyildiz)
-</p>

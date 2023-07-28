@@ -12,6 +12,10 @@
 
 ### Languages and Tools:
 
+<p align="left">
+Learning  <a href="https://www.rust-lang.org/" target="_blank"> <img src="icons/rust.svg" alt="rust"  height="32"/> </a> 
+</p>
+
 <p align="left"> 
 <a href="https://golang.org" target="_blank"> <img src="icons/go.svg" alt="go"  height="32"/> </a> 
 <a href="https://www.java.com" target="_blank"> <img src="icons/java.svg" alt="java"  height="32"/> </a>
@@ -38,6 +42,3 @@
 <a href="https://aws.amazon.com/" target="_blank"> <img src="icons/aws.svg" alt="aws"  height="32"/> </a>
 <a href="https://azure.com/" target="_blank"> <img src="icons/azure.svg" alt="aws"  height="32"/> </a> 
 </p>
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&langs_count=6&layout=compact&cache_seconds=180&hide=shell,javascript,makefile)](https://github.com/rayyildiz)

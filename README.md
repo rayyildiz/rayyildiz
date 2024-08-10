@@ -13,9 +13,9 @@
 ### Languages and Tools:
 
 <p align="left"> 
+<a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="go" height="32"/></a> &nbsp;
 <a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="rust"  height="32"/></a> &nbsp;
 <a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="python" height="32"/></a> &nbsp;
-<a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="go" height="32"/></a> &nbsp;
 <a href="https://www.java.com" target="_blank"><img src="icons/java.svg" alt="java"  height="32"/></a> 
 </p>
 

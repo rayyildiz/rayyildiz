@@ -10,7 +10,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 ### Connect with Me:
 
 <p align="left">
-<a href="https://bsky.app/profile/rayyildiz.dev" target="_blank"><img align="center" src="icons/twitter.svg" alt="rayyildiz" height="32" /></a> 
+<a href="https://bsky.app/profile/rayyildiz.dev" target="_blank"><img align="center" src="icons/bluesky-1.svg" alt="rayyildiz" height="32" /> </a> 
 <a href="https://github.com/rayyildiz" target="_blank"><img align="center" src="icons/github.svg" alt="rayyildiz" height="32" /></a> 
 </p>
 

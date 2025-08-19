@@ -9,7 +9,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 
 ### Connect with Me:
 
-<div style="text-align: left"> 
+<div style="text-align: left" align="left"> 
   
 <a href="https://bsky.app/profile/rayyildiz.dev" target="_blank"><img align="center" src="icons/bluesky-1.svg" alt="rayyildiz" height="32" /> </a> 
 <a href="https://github.com/rayyildiz" target="_blank"><img align="center" src="icons/github.svg" alt="rayyildiz" height="32" /></a> 
@@ -21,7 +21,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 ### Languages and Tools:
 
 
-<div style="text-align: left"> 
+<div style="text-align: left" align="left"> 
 <!-- Uncomment languages if you want to show them 
 <a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="Go" height="32"/></a> 
 <a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="Rust" height="32"/></a> 
@@ -42,7 +42,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 <a href="https://spring.io/" target="_blank"><img src="icons/spring.svg" alt="Spring" height="32"/></a>
 </div>
 
-<div style="text-align: left"> 
+<div style="text-align: left" align="left"> 
 <a href="https://aws.amazon.com/" target="_blank"><img src="icons/aws.svg" alt="AWS" height="32"/></a> 
 <a href="https://azure.com/" target="_blank"><img src="icons/azure.svg" alt="Azure" height="32"/></a> 
 </div>

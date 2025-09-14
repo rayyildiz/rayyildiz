@@ -22,12 +22,15 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 
 
 <div style="text-align: left" align="left"> 
-<!-- Uncomment languages if you want to show them 
 <a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="Go" height="32"/></a> 
 <a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="Rust" height="32"/></a> 
 <a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="Python" height="32"/></a> 
 <a href="https://www.java.com" target="_blank"><img src="icons/java.svg" alt="Java" height="32"/></a> 
--->
+</div>
+
+---
+
+<div style="text-align: left" align="left">
 <a href="https://en.wikipedia.org/wiki/Big_data" target="_blank"><img src="icons/bigdata.svg" alt="Big Data" height="32"/></a>
 <a href="https://www.postgresql.org" target="_blank"><img src="icons/postgresql.svg" alt="PostgreSQL" height="32"/></a> 
 <a href="https://www.docker.com/" target="_blank"><img src="icons/docker.svg" alt="Docker" height="32"/></a> 

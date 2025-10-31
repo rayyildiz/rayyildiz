@@ -8,25 +8,20 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 ---
 
 ### Connect with Me:
-
-<div style="text-align: left" align="left"> 
-  
-<a href="https://bsky.app/profile/rayyildiz.dev" target="_blank"><img align="center" src="icons/bluesky-1.svg" alt="rayyildiz" height="32" /> </a> 
-<a href="https://github.com/rayyildiz" target="_blank"><img align="center" src="icons/github.svg" alt="rayyildiz" height="32" /></a> 
-
-</div>
+<p align="left">
+  <a href="https://bsky.app/profile/rayyildiz.dev" target="_blank"><img src="icons/bluesky-1.svg" alt="rayyildiz" height="32"></a>
+  <a href="https://github.com/rayyildiz" target="_blank"><img src="icons/github.svg" alt="rayyildiz" height="32"></a>
+</p>
 
 ---
 
 ### Languages and Tools:
-
-
-<div style="text-align: left" align="left"> 
-<a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="Go" height="32"/></a> 
-<a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="Rust" height="32"/></a> 
-<a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="Python" height="32"/></a> 
-<a href="https://www.java.com" target="_blank"><img src="icons/java.svg" alt="Java" height="32"/></a> 
-</div>
+<p align="left">
+  <a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="Go" height="32"></a>
+  <a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="Rust" height="32"></a>
+  <a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="Python" height="32"></a>
+  <a href="https://www.java.com" target="_blank"><img src="icons/java.svg" alt="Java" height="32"></a>
+</p>
 
 ---
 

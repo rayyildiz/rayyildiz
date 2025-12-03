@@ -47,6 +47,6 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 
 ---
 
-<img align="left" alt="rayyildiz Github Stats" src="https://github-readme-stats.vercel.app/api?username=rayyildiz&show_icons=true&hide_border=true" />
-<img align="left" alt="rayyildiz Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayyildiz&langs_count=5&cache_seconds=60&hide=Asp,Ruby,HTML,css,javascript,shell,vim%20script,TypeScript,Dockerfile,Scala,Makefile&show_icons=true&hide_border=true" />
+<img align="left" alt="rayyildiz Github Stats" src="https://github-readme-stats-ayyildiz.vercel.app/api?username=rayyildiz&show_icons=true&hide_border=true" />
+<img align="left" alt="rayyildiz Github Stats" src="https://github-readme-stats-ayyildiz.vercel.app/api/top-langs/?username=rayyildiz&langs_count=10&cache_seconds=300&hide=Asp,Ruby,HTML,css,javascript,shell,vim%20script,TypeScript,Dockerfile,Scala,Makefile,Dart&show_icons=true&hide_border=true" />
 ---

@@ -1,4 +1,4 @@
-### Hello, I'm Ramazan AYYILDIZ 👋
+### Hello, there 👋
 
 I'm a passionate technology enthusiast who loves staying ahead with the latest tech trends. I have a particular fondness for exploring new technologies and I am dedicated to sharing my knowledge with the tech community. 
 

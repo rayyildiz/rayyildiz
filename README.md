@@ -19,8 +19,8 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 <p align="left">
   <a href="https://golang.org" target="_blank"><img src="icons/go.svg" alt="Go" height="32"></a>
   <a href="https://www.rust-lang.org/" target="_blank"><img src="icons/rust.svg" alt="Rust" height="32"></a>
-  <a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="Python" height="32"></a>
   <a href="https://www.java.com" target="_blank"><img src="icons/java.svg" alt="Java" height="32"></a>
+  <a href="https://www.python.org/" target="_blank"><img src="icons/python.svg" alt="Python" height="32"></a>
 </p>
 
 ---

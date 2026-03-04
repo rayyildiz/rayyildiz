@@ -1,0 +1,40 @@
+name: Update Icons
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Every Monday at 00:00 UTC
+  workflow_dispatch: # Allow manual trigger too
+
+permissions:
+  contents: write
+
+jobs:
+  update-icons:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create icons directory
+        run: mkdir -p icons
+
+      - name: Download SVG icons
+        run: |
+          curl -sSL "https://stats.rayyildiz.com/api?username=rayyildiz&show_icons=true&hide_border=true" \
+            -o icons/github-stats.svg
+
+          curl -sSL "https://stats.rayyildiz.com/api/top-langs/?username=rayyildiz&langs_count=7&cache_seconds=3000&hide=Asp,Ruby,HTML,css,javascript,shell,vim%20script,TypeScript,Dockerfile,Scala,Makefile,Dart,TSQL,SCSS,Emacs%20Lisp,Objective-C,C%23&show_icons=true&hide_border=true" \
+            -o icons/github-top7.svg
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add icons/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update SVG icons [skip ci]"
+            git push
+          fi

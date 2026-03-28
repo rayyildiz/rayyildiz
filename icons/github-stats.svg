@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">ayyildiz's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 69, Total Commits  (last year) : 2231, Total PRs: 537, Total Issues: 275, Contributed to (last year): 29</desc>
+        <desc id="descId">Total Stars Earned: 69, Total Commits  (last year) : 2264, Total PRs: 554, Total Issues: 281, Contributed to (last year): 29</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 52.55008055157629;
+        stroke-dashoffset: 52.53325963809905;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >2.2k</text>
+      >2.3k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >537</text>
+      >554</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >275</text>
+      >281</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">

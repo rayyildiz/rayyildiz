@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">ayyildiz's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 69, Total Commits  (last year) : 2427, Total PRs: 642, Total Issues: 285, Contributed to (last year): 27</desc>
+        <desc id="descId">Total Stars Earned: 69, Total Commits  (last year) : 2428, Total PRs: 642, Total Issues: 285, Contributed to (last year): 27</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 52.42918305061329;
+        stroke-dashoffset: 52.42904438366982;
       }
     }
   

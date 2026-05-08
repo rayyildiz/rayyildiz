@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Apply unified label colors across all private repos.
+# Apply unified label colors to repos.
+# Usage:
+#   ./update_labels.sh                  # all private repos owned by current user
+#   ./update_labels.sh owner/repo       # specific repo
 set -u
 
 declare -A C=(
@@ -70,8 +73,33 @@ urlencode() {
   printf '%s' "$out"
 }
 
+TARGET_REPO="${1:-}"
+TSV=$(mktemp)
+trap 'rm -f "$TSV"' EXIT
+
+if [[ -n "$TARGET_REPO" ]]; then
+  if [[ "$TARGET_REPO" != */* ]]; then
+    echo "ERROR: repo must be in 'owner/name' format" >&2
+    exit 1
+  fi
+  echo "Fetching labels for $TARGET_REPO..."
+  gh api --paginate "repos/$TARGET_REPO/labels" \
+    --jq ".[] | [\"$TARGET_REPO\", .name, .color, (.description // \"\")] | @tsv" \
+    > "$TSV"
+else
+  echo "Fetching labels for all private repos..."
+  repos=$(gh repo list --limit 1000 --visibility private --json nameWithOwner --jq '.[].nameWithOwner')
+  while IFS= read -r repo; do
+    [[ -z "$repo" ]] && continue
+    gh api --paginate "repos/$repo/labels" \
+      --jq ".[] | [\"$repo\", .name, .color, (.description // \"\")] | @tsv" \
+      >> "$TSV" 2>/dev/null || true
+  done <<< "$repos"
+fi
+
 updated=0; skipped=0; missing=0; failed=0
 while IFS=$'\t' read -r repo name cur desc; do
+  [[ -z "$repo" ]] && continue
   key=$(echo "$name" | tr '[:upper:]' '[:lower:]')
   want="${C[$key]:-}"
   if [[ -z "$want" ]]; then
@@ -88,7 +116,7 @@ while IFS=$'\t' read -r repo name cur desc; do
     failed=$((failed+1))
     echo "FAIL $repo :: $name"
   fi
-done < /tmp/all_labels.tsv
+done < "$TSV"
 
 echo
 echo "updated=$updated skipped=$skipped missing=$missing failed=$failed"

@@ -112,6 +112,7 @@ declare -A C=(
   ["ios"]="999999"
   ["android"]="3ddc84"
   ["go"]="00add8"
+  ["golang"]="00add8"
   ["rust"]="dea584"
   ["kotlin"]="a97bff"
   ["javascript"]="f1e05a"
@@ -128,7 +129,8 @@ urlencode() {
   for (( i=0; i<${#s}; i++ )); do
     c="${s:i:1}"
     case "$c" in
-      [a-zA-Z0-9.~_-]) out+="$c" ;;
+      [a-zA-Z0-9.~_:/-]) out+="$c" ;;
+      ' ') out+="%20" ;;
       *) printf -v hex '%%%02X' "'$c"; out+="$hex" ;;
     esac
   done

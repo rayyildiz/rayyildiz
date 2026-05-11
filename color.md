@@ -6,17 +6,35 @@ Default issue labels follow GitHub's stock colors.
 
 ## Default GitHub Labels
 
-| Label            | Color                                                    | Hex       |
-|------------------|----------------------------------------------------------|-----------|
-| bug              | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
-| documentation    | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
-| duplicate        | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
-| enhancement      | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
-| good first issue | ![#7057ff](https://placehold.co/15x15/7057ff/7057ff.png) | `#7057ff` |
-| help wanted      | ![#008672](https://placehold.co/15x15/008672/008672.png) | `#008672` |
-| invalid          | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
-| question         | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
-| wontfix          | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
+| Label                   | Color                                                    | Hex       |
+|-------------------------|----------------------------------------------------------|-----------|
+| bug                     | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
+| documentation           | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
+| duplicate               | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
+| enhancement             | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
+| good first issue        | ![#7057ff](https://placehold.co/15x15/7057ff/7057ff.png) | `#7057ff` |
+| help wanted             | ![#008672](https://placehold.co/15x15/008672/008672.png) | `#008672` |
+| invalid                 | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
+| question                | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| wontfix                 | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
+| status: blocked         | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| status: confirmed       | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
+| status: duplicate       | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
+| status: help wanted     | ![#008672](https://placehold.co/15x15/008672/008672.png) | `#008672` |
+| status: invalid         | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
+| status: need feedback   | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| status: needs more info | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| status: on hold         | ![#cccccc](https://placehold.co/15x15/cccccc/cccccc.png) | `#cccccc` |
+| status: won't do/fix    | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
+| status: can't reproduce | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
+| future maybe            | ![#bfd4f2](https://placehold.co/15x15/bfd4f2/bfd4f2.png) | `#bfd4f2` |
+| component: backend      | ![#c2e0c6](https://placehold.co/15x15/c2e0c6/c2e0c6.png) | `#c2e0c6` |
+| component: infra        | ![#5319e7](https://placehold.co/15x15/5319e7/5319e7.png) | `#5319e7` |
+| component: ui           | ![#1d76db](https://placehold.co/15x15/1d76db/1d76db.png) | `#1d76db` |
+| priority: critical      | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| priority: high          | ![#d93f0b](https://placehold.co/15x15/d93f0b/d93f0b.png) | `#d93f0b` |
+| priority: medium        | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| priority: low           | ![#cccccc](https://placehold.co/15x15/cccccc/cccccc.png) | `#cccccc` |
 
 ## Workflow / Status
 
@@ -45,16 +63,58 @@ Default issue labels follow GitHub's stock colors.
 
 ## Kind / Type / Status namespaces
 
-| Label            | Color                                                    | Hex       |
-|------------------|----------------------------------------------------------|-----------|
-| kind/bug         | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
-| kind/enhancement | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
-| kind/doc         | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
-| kind/question    | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
-| type/blocker     | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
-| status/wontfix   | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
-| status/invalid   | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
-| status/duplicate | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
+| Label                  | Color                                                    | Hex       |
+|------------------------|----------------------------------------------------------|-----------|
+| kind/bug               | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
+| kind/enhancement       | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
+| kind/doc               | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
+| future/maybe           | ![#bfd4f2](https://placehold.co/15x15/bfd4f2/bfd4f2.png) | `#bfd4f2` |
+| status/blocked         | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| status/confirmed       | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
+| status/duplicate       | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
+| status/help wanted     | ![#008672](https://placehold.co/15x15/008672/008672.png) | `#008672` |
+| status/invalid         | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
+| status/need feedback   | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| status/needs more info | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| status/on hold         | ![#cccccc](https://placehold.co/15x15/cccccc/cccccc.png) | `#cccccc` |
+| status/won't do/fix    | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
+| status/wontfix         | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) | `#ffffff` |
+| type/bug               | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
+| type/build             | ![#5319e7](https://placehold.co/15x15/5319e7/5319e7.png) | `#5319e7` |
+| type/chore             | ![#ededed](https://placehold.co/15x15/ededed/ededed.png) | `#ededed` |
+| type/ci                | ![#2088ff](https://placehold.co/15x15/2088ff/2088ff.png) | `#2088ff` |
+| type/discussion        | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| type/documentation     | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
+| type/enhancement       | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
+| type/feature request   | ![#84b6eb](https://placehold.co/15x15/84b6eb/84b6eb.png) | `#84b6eb` |
+| type/investigate       | ![#d93f0b](https://placehold.co/15x15/d93f0b/d93f0b.png) | `#d93f0b` |
+| type/perf              | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
+| type/question          | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| type/refactor          | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| type/security          | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| type/test              | ![#c5def5](https://placehold.co/15x15/c5def5/c5def5.png) | `#c5def5` |
+| type: bug              | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
+| type: build            | ![#5319e7](https://placehold.co/15x15/5319e7/5319e7.png) | `#5319e7` |
+| type: chore            | ![#ededed](https://placehold.co/15x15/ededed/ededed.png) | `#ededed` |
+| type: ci               | ![#2088ff](https://placehold.co/15x15/2088ff/2088ff.png) | `#2088ff` |
+| type: discussion       | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| type: documentation    | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
+| type: enhancement      | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
+| type: feature request  | ![#84b6eb](https://placehold.co/15x15/84b6eb/84b6eb.png) | `#84b6eb` |
+| type: investigate      | ![#d93f0b](https://placehold.co/15x15/d93f0b/d93f0b.png) | `#d93f0b` |
+| type: perf             | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
+| type: question         | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| type: refactor         | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| type: security         | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| type: test             | ![#c5def5](https://placehold.co/15x15/c5def5/c5def5.png) | `#c5def5` |
+| component/backend      | ![#c2e0c6](https://placehold.co/15x15/c2e0c6/c2e0c6.png) | `#c2e0c6` |
+| component/infra        | ![#5319e7](https://placehold.co/15x15/5319e7/5319e7.png) | `#5319e7` |
+| component/ui           | ![#1d76db](https://placehold.co/15x15/1d76db/1d76db.png) | `#1d76db` |
+| priority/critical      | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
+| priority/high          | ![#d93f0b](https://placehold.co/15x15/d93f0b/d93f0b.png) | `#d93f0b` |
+| priority/medium        | ![#fbca04](https://placehold.co/15x15/fbca04/fbca04.png) | `#fbca04` |
+| priority/low           | ![#cccccc](https://placehold.co/15x15/cccccc/cccccc.png) | `#cccccc` |
+| status/can't reproduce | ![#e4e669](https://placehold.co/15x15/e4e669/e4e669.png) | `#e4e669` |
 
 ## Ecosystems / Platforms
 

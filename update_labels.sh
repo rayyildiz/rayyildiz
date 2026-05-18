@@ -3,6 +3,12 @@
 # Usage:
 #   ./update_labels.sh                  # all private repos owned by current user
 #   ./update_labels.sh owner/repo       # specific repo
+if [[ "${BASH_VERSINFO[0]}" -lt 4 ]]; then
+  echo "ERROR: Bash 4+ required for associative arrays (you have $BASH_VERSION)." >&2
+  echo "On macOS: brew install bash, then run with: /opt/homebrew/bin/bash $0 $*" >&2
+  exit 1
+fi
+
 set -u
 
 # Requires bash 4+ (associative arrays, ${var,,}). macOS ships bash 3.2.
@@ -174,7 +180,7 @@ updated=0; skipped=0; missing=0; failed=0
 while IFS=$'\t' read -r repo name cur desc; do
   [[ -z "$repo" ]] && continue
   key=$(echo "$name" | tr '[:upper:]' '[:lower:]')
-  want="${C[$key]:-}"
+  want="${C[$key]+${C[$key]}}"
   if [[ -z "$want" ]]; then
     missing=$((missing+1)); echo "MISS $repo :: $name"; continue
   fi

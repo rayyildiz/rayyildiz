@@ -5,6 +5,15 @@
 #   ./update_labels.sh owner/repo       # specific repo
 set -u
 
+# Requires bash 4+ (associative arrays, ${var,,}). macOS ships bash 3.2.
+if (( BASH_VERSINFO[0] < 4 )); then
+  for alt in /opt/homebrew/bin/bash /usr/local/bin/bash; do
+    if [[ -x "$alt" ]]; then exec "$alt" "$0" "$@"; fi
+  done
+  echo "ERROR: bash 4+ required (found $BASH_VERSION). Install with: brew install bash" >&2
+  exit 1
+fi
+
 declare -A C=(
   ["bug"]="d73a4a"
   ["documentation"]="0075ca"

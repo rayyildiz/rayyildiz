@@ -49,6 +49,7 @@ declare -A C=(
   ["wont-have"]="cccccc"
   ["template"]="c5def5"
   ["static"]="bfd4f2"
+  ["svelte"]="#ff3e00"
   ["submodules"]="ededed"
   ["kind/bug"]="d73a4a"
   ["kind/enhancement"]="a2eeef"

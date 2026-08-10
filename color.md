@@ -7,7 +7,7 @@ Default issue labels follow GitHub's stock colors.
 ## Default GitHub Labels
 
 | Label                   | Color                                                    | Hex       |
-|-------------------------|----------------------------------------------------------|-----------|
+| ----------------------- | -------------------------------------------------------- | --------- |
 | bug                     | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
 | documentation           | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
 | duplicate               | ![#cfd3d7](https://placehold.co/15x15/cfd3d7/cfd3d7.png) | `#cfd3d7` |
@@ -39,7 +39,7 @@ Default issue labels follow GitHub's stock colors.
 ## Workflow / Status
 
 | Label          | Color                                                    | Hex       |
-|----------------|----------------------------------------------------------|-----------|
+| -------------- | -------------------------------------------------------- | --------- |
 | dependencies   | ![#0366d6](https://placehold.co/15x15/0366d6/0366d6.png) | `#0366d6` |
 | dependency     | ![#0366d6](https://placehold.co/15x15/0366d6/0366d6.png) | `#0366d6` |
 | feature        | ![#84b6eb](https://placehold.co/15x15/84b6eb/84b6eb.png) | `#84b6eb` |
@@ -64,7 +64,7 @@ Default issue labels follow GitHub's stock colors.
 ## Kind / Type / Status namespaces
 
 | Label                  | Color                                                    | Hex       |
-|------------------------|----------------------------------------------------------|-----------|
+| ---------------------- | -------------------------------------------------------- | --------- |
 | kind/bug               | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
 | kind/enhancement       | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
 | kind/doc               | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
@@ -119,7 +119,7 @@ Default issue labels follow GitHub's stock colors.
 ## Ecosystems / Platforms
 
 | Label                         | Color                                                    | Hex       |
-|-------------------------------|----------------------------------------------------------|-----------|
+| ----------------------------- | -------------------------------------------------------- | --------- |
 | github_actions                | ![#2088ff](https://placehold.co/15x15/2088ff/2088ff.png) | `#2088ff` |
 | devcontainers_package_manager | ![#ededed](https://placehold.co/15x15/ededed/ededed.png) | `#ededed` |
 | kubernetes                    | ![#326ce5](https://placehold.co/15x15/326ce5/326ce5.png) | `#326ce5` |
@@ -130,7 +130,7 @@ Default issue labels follow GitHub's stock colors.
 ## Programming Languages (GitHub Linguist Official)
 
 | Language   | Color                                                    | Hex       |
-|------------|----------------------------------------------------------|-----------|
+| ---------- | -------------------------------------------------------- | --------- |
 | go         | ![#00add8](https://placehold.co/15x15/00add8/00add8.png) | `#00ADD8` |
 | golang     | ![#00add8](https://placehold.co/15x15/00add8/00add8.png) | `#00ADD8` |
 | rust       | ![#dea584](https://placehold.co/15x15/dea584/dea584.png) | `#dea584` |
@@ -142,3 +142,4 @@ Default issue labels follow GitHub's stock colors.
 | css        | ![#563d7c](https://placehold.co/15x15/563d7c/563d7c.png) | `#563d7c` |
 | dart       | ![#00b4ab](https://placehold.co/15x15/00b4ab/00b4ab.png) | `#00B4AB` |
 | csharp     | ![#178600](https://placehold.co/15x15/178600/178600.png) | `#178600` |
+| svelte     | ![#ff3e00](https://placehold.co/15x15/178600/ff3e00.png) | `#ff3e00` |

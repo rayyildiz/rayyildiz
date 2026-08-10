@@ -142,4 +142,4 @@ Default issue labels follow GitHub's stock colors.
 | css        | ![#563d7c](https://placehold.co/15x15/563d7c/563d7c.png) | `#563d7c` |
 | dart       | ![#00b4ab](https://placehold.co/15x15/00b4ab/00b4ab.png) | `#00B4AB` |
 | csharp     | ![#178600](https://placehold.co/15x15/178600/178600.png) | `#178600` |
-| svelte     | ![#ff3e00](https://placehold.co/15x15/178600/ff3e00.png) | `#ff3e00` |
+| svelte     | ![#ff3e00](https://placehold.co/15x15/ff3e00/ff3e00.png) | `#ff3e00` |

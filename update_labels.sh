@@ -21,14 +21,8 @@ if (( BASH_VERSINFO[0] < 4 )); then
 fi
 
 declare -A C=(
-  ["bug"]="d73a4a"
   ["documentation"]="0075ca"
-  ["duplicate"]="cfd3d7"
-  ["enhancement"]="a2eeef"
   ["good first issue"]="7057ff"
-  ["help wanted"]="008672"
-  ["invalid"]="e4e669"
-  ["question"]="d876e3"
   ["wontfix"]="ffffff"
   ["dependencies"]="0366d6"
   ["dependency"]="0366d6"
@@ -41,7 +35,6 @@ declare -A C=(
   ["deployment"]="b60205"
   ["release"]="0e8a16"
   ["ready"]="0e8a16"
-  ["in progress"]="fbca04"
   ["epic"]="3e4b9e"
   ["must-have"]="b60205"
   ["should-have"]="d93f0b"

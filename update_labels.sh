@@ -119,6 +119,7 @@ declare -A C=(
   ["kubernetes"]="326ce5"
   ["notebook"]="da5b0b"
   ["ios"]="999999"
+  ["react"]="31f8f6"
   ["android"]="3ddc84"
   ["go"]="00add8"
   ["golang"]="00add8"

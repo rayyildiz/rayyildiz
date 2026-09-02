@@ -137,6 +137,7 @@ Default issue labels follow GitHub's stock colors.
 | kotlin     | ![#a97bff](https://placehold.co/15x15/a97bff/a97bff.png) | `#A97BFF` |
 | javascript | ![#f1e05a](https://placehold.co/15x15/f1e05a/f1e05a.png) | `#f1e05a` |
 | typescript | ![#3178c6](https://placehold.co/15x15/3178c6/3178c6.png) | `#3178c6` |
+| react      | ![#31f8f6](https://placehold.co/15x15/31f8f6/31f8f6.png) | `#31f8f6` |
 | python     | ![#3572a5](https://placehold.co/15x15/3572a5/3572a5.png) | `#3572A5` |
 | html       | ![#e34c26](https://placehold.co/15x15/e34c26/e34c26.png) | `#e34c26` |
 | css        | ![#563d7c](https://placehold.co/15x15/563d7c/563d7c.png) | `#563d7c` |

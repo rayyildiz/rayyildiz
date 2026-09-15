@@ -40,6 +40,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 <a href="https://spring.io/" target="_blank"><img src="icons/spring.svg" alt="Spring" height="32"/></a>
 </div>
 
+
 <div style="text-align: left" align="left"> 
 <a href="https://aws.amazon.com/" target="_blank"><img src="icons/aws.svg" alt="AWS" height="32"/></a> 
 <a href="https://azure.com/" target="_blank"><img src="icons/azure.svg" alt="Azure" height="32"/></a> 
@@ -47,7 +48,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 
 ---
 
+
 <img align="left" alt="rayyildiz Github Stats" src="icons/github-stats.svg" />
 <img align="left" alt="rayyildiz Github Stats" src="icons/github-top7.svg" />
 
----

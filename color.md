@@ -134,6 +134,7 @@ Default issue labels follow GitHub's stock colors.
 | go         | ![#00add8](https://placehold.co/15x15/00add8/00add8.png) | `#00ADD8` |
 | golang     | ![#00add8](https://placehold.co/15x15/00add8/00add8.png) | `#00ADD8` |
 | rust       | ![#dea584](https://placehold.co/15x15/dea584/dea584.png) | `#dea584` |
+| java       | ![#b07219](https://placehold.co/15x15/b07219/b07219.png) | `#b07219` |
 | kotlin     | ![#a97bff](https://placehold.co/15x15/a97bff/a97bff.png) | `#A97BFF` |
 | javascript | ![#f1e05a](https://placehold.co/15x15/f1e05a/f1e05a.png) | `#f1e05a` |
 | typescript | ![#3178c6](https://placehold.co/15x15/3178c6/3178c6.png) | `#3178c6` |

@@ -146,6 +146,7 @@ declare -A C=(
   ["css"]="563d7c"
   ["dart"]="00b4ab"
   ["csharp"]="178600"
+  ["java"]="b07219"
 )
 
 urlencode() {

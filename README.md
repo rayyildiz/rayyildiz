@@ -48,7 +48,7 @@ I'm a passionate technology enthusiast who loves staying ahead with the latest t
 
 ---
 
-
+<!--
 <img align="left" alt="rayyildiz Github Stats" src="icons/github-stats.svg" />
 <img align="left" alt="rayyildiz Github Stats" src="icons/github-top7.svg" />
-
+-->

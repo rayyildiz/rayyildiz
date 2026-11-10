@@ -184,7 +184,7 @@ if [[ -n "$TARGET_REPO" ]]; then
     > "$TSV"
 else
   echo "Fetching labels for all private repos..."
-  repos=$(gh repo list --limit 1000 --visibility private --json nameWithOwner --jq '.[].nameWithOwner')
+  repos=$(gh repo list --limit 1000 --visibility private --no-archived --json nameWithOwner --jq '.[].nameWithOwner')
   while IFS= read -r repo; do
     [[ -z "$repo" ]] && continue
     gh api --paginate "repos/$repo/labels" \
@@ -205,12 +205,12 @@ while IFS=$'\t' read -r repo name cur desc; do
     skipped=$((skipped+1)); continue
   fi
   enc=$(urlencode "$name")
-  if gh api -X PATCH "repos/$repo/labels/$enc" -f color="$want" --silent 2>/dev/null; then
+  if err=$(gh api -X PATCH "repos/$repo/labels/$enc" -f color="$want" --silent 2>&1); then
     updated=$((updated+1))
     echo "OK  $repo :: $name -> $want"
   else
     failed=$((failed+1))
-    echo "FAIL $repo :: $name"
+    echo "FAIL $repo :: $name :: $err"
   fi
 done < "$TSV"
 

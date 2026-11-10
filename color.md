@@ -68,6 +68,8 @@ Default issue labels follow GitHub's stock colors.
 | kind/bug               | ![#d73a4a](https://placehold.co/15x15/d73a4a/d73a4a.png) | `#d73a4a` |
 | kind/enhancement       | ![#a2eeef](https://placehold.co/15x15/a2eeef/a2eeef.png) | `#a2eeef` |
 | kind/doc               | ![#0075ca](https://placehold.co/15x15/0075ca/0075ca.png) | `#0075ca` |
+| kind/question          | ![#d876e3](https://placehold.co/15x15/d876e3/d876e3.png) | `#d876e3` |
+| type/blocker           | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
 | future/maybe           | ![#bfd4f2](https://placehold.co/15x15/bfd4f2/bfd4f2.png) | `#bfd4f2` |
 | status/blocked         | ![#b60205](https://placehold.co/15x15/b60205/b60205.png) | `#b60205` |
 | status/confirmed       | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
@@ -127,6 +129,27 @@ Default issue labels follow GitHub's stock colors.
 | ios                           | ![#999999](https://placehold.co/15x15/999999/999999.png) | `#999999` |
 | android                       | ![#3ddc84](https://placehold.co/15x15/3ddc84/3ddc84.png) | `#3ddc84` |
 
+## Components / Areas
+
+| Label         | Color                                                    | Hex       |
+| ------------- | -------------------------------------------------------- | --------- |
+| accessibility | ![#f143ab](https://placehold.co/15x15/f143ab/f143ab.png) | `#f143ab` |
+| adapter       | ![#bf0d28](https://placehold.co/15x15/bf0d28/bf0d28.png) | `#bf0d28` |
+| api           | ![#168249](https://placehold.co/15x15/168249/168249.png) | `#168249` |
+| app           | ![#52189b](https://placehold.co/15x15/52189b/52189b.png) | `#52189b` |
+| bench         | ![#0e8a16](https://placehold.co/15x15/0e8a16/0e8a16.png) | `#0e8a16` |
+| core          | ![#49dcf6](https://placehold.co/15x15/49dcf6/49dcf6.png) | `#49dcf6` |
+| database      | ![#8f0bb8](https://placehold.co/15x15/8f0bb8/8f0bb8.png) | `#8f0bb8` |
+| email         | ![#0f0272](https://placehold.co/15x15/0f0272/0f0272.png) | `#0f0272` |
+| engine        | ![#240a28](https://placehold.co/15x15/240a28/240a28.png) | `#240a28` |
+| infra         | ![#5319e7](https://placehold.co/15x15/5319e7/5319e7.png) | `#5319e7` |
+| ingest        | ![#3ef922](https://placehold.co/15x15/3ef922/3ef922.png) | `#3ef922` |
+| manifest      | ![#795d4d](https://placehold.co/15x15/795d4d/795d4d.png) | `#795d4d` |
+| migration     | ![#839239](https://placehold.co/15x15/839239/839239.png) | `#839239` |
+| store         | ![#a2ba08](https://placehold.co/15x15/a2ba08/a2ba08.png) | `#a2ba08` |
+| ui            | ![#1d76db](https://placehold.co/15x15/1d76db/1d76db.png) | `#1d76db` |
+| web           | ![#19dcf5](https://placehold.co/15x15/19dcf5/19dcf5.png) | `#19dcf5` |
+
 ## Programming Languages (GitHub Linguist Official)
 
 | Language   | Color                                                    | Hex       |
@@ -145,3 +168,5 @@ Default issue labels follow GitHub's stock colors.
 | dart       | ![#00b4ab](https://placehold.co/15x15/00b4ab/00b4ab.png) | `#00B4AB` |
 | csharp     | ![#178600](https://placehold.co/15x15/178600/178600.png) | `#178600` |
 | svelte     | ![#ff3e00](https://placehold.co/15x15/ff3e00/ff3e00.png) | `#ff3e00` |
+| shell      | ![#89e051](https://placehold.co/15x15/89e051/89e051.png) | `#89e051` |
+| astro      | ![#ff5a03](https://placehold.co/15x15/ff5a03/ff5a03.png) | `#ff5a03` |

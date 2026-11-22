@@ -1,0 +1,28 @@
+name: Update Labels
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'Repository to update (owner/repo). Leave empty to update all repos.'
+        required: false
+        default: ''
+
+jobs:
+  update-labels:
+    runs-on: ubuntu-slim
+    permissions:
+      repo: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Run update_labels.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ github.event.inputs.repo }}" ]; then
+            bash update_labels.sh "${{ github.event.inputs.repo }}"
+          else
+            bash update_labels.sh
+          fi
